@@ -1,0 +1,43 @@
+/* Configurações globais de box-sizing e fonte */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: PoppinsRegular, sans-serif;
+}
+
+/* Define o tamanho base apenas para os containers principais */
+html, body {
+    width: 100%;
+    min-height: 100vh; 
+    background-color: transparent;
+    /* overflow-x: hidden; Opcional: evita scroll horizontal indesejado */
+}
+
+/* Configuração do Scrollbar Personalizada */
+*::-webkit-scrollbar {
+    /* Fundo do scroll: Quase transparente para não quebrar o visual do canvas de estrelas */
+    background-color: rgba(13, 3, 22, 0.5); 
+    width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+    /* Cor principal: Um roxo profundo que remete ao seu menu e botões ativos */
+    background-color: #311b92; 
+    border-radius: 20px;
+    /* Borda transparente cria um efeito de 'pílula flutuante' */
+    border: 2px solid rgba(13, 3, 22, 0.1);
+    background-clip: content-box;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    /* Brilho ao passar o mouse: Roxo vibrante (o mesmo do seu estado ativo) */
+    background-color: #6200ee;
+    box-shadow: 0 0 10px rgba(98, 0, 238, 0.6);
+}
+
+/* Para Firefox (suporte limitado, mas importante) */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #311b92 rgb(9 0 16)
+}
