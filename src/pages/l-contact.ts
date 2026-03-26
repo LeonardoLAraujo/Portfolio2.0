@@ -264,6 +264,7 @@ export default class LContact extends LitElement {
 
                 .status-line {
                     justify-content: center;
+                    align-items: baseline;
                 }
 
                 .social-links {
