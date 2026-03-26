@@ -79,7 +79,7 @@ export default class LProjects extends LitElement {
             title: "Studies of Basic Subjects",
             description: "Uma plataforma criada para estudantes de matérias básicas, oferecendo conteúdos de apoio, organização didática e interface simples para otimizar o aprendizado. Desenvolvida em TypeScript; busca facilitar o estudo de disciplinas fundamentais de forma acessível para quem está começando ou revisando conceitos principais.",
             resume: "Plataforma em TypeScript que organiza conteúdos de matérias básicas com uma interface simples, facilitando o aprendizado e a revisão de conceitos fundamentais.",
-            thumb: "https://i9.ytimg.com/vi/pBxzA9aMmwY/mqdefault.jpg?sqp=CMCKlc4G-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYACtgWKAgwIABABGC4gKSh_MA8=&rs=AOn4CLAE5jyQ9cHSXJZ0YyzfxbcVaR8gDA",
+            thumb: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=600&auto=format&fit=crop",
             tags: ["Typescript", "HTML&CSS", "Lit Element", "NodeJs", "Vite"],
             link: "https://github.com/LeonardoLAraujo/Studies-of-basic-subjects",
             videoUrl: "https://www.youtube.com/embed/pBxzA9aMmwY?si=t1z_VhDBClT6gGfx",
