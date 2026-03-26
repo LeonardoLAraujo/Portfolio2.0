@@ -109,9 +109,9 @@ export default class LMenu extends LitElement {
     private _listOptions = [
         { text: "Status", icon: IconTypes.Person, id: 'stats' }, 
         { text: "Skills", icon: "code_xml" as IconTypes, id: 'skills' },
-        { text: "Stack", icon: IconTypes.Settings, id: 'tech-stack' },
-        { text: "Trajetória", icon: "work_history" as IconTypes, id: 'journey' },
-        { text: "Projetos", icon: IconTypes.Book, id: 'projects' },
+        { text: "Stack", icon: "stacks" as IconTypes, id: 'tech-stack' },
+        { text: "Trajetória", icon: "cases" as IconTypes, id: 'journey' },
+        { text: "Projetos", icon: "folder_open" as IconTypes, id: 'projects' },
         { text: "Contato", icon: IconTypes.Mail, id: 'contact' },
     ];
 
@@ -140,7 +140,7 @@ export default class LMenu extends LitElement {
                             @click=${() => this._handleNav(index)}
                             title=${menu.text}
                         >
-                            <ecv-icon .icon=${menu.icon}></ecv-icon>
+                            <ecv-icon .icon=${menu.icon} ?filled=${true}></ecv-icon>
                         </div>
                     `)}
                 </div>
