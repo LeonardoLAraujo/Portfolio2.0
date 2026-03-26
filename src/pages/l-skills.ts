@@ -9,7 +9,7 @@ export default class LSkills extends LitElement {
         { name: 'Front-end Core', level: 90, tags: 'Lit Element, TypeScript, HTML, CSS', icon: '' },
         { name: 'Systems Analysis', level: 40, tags: 'Arquitetura, SQL, PYTHON, POWER BI', icon: '' },
         { name: 'Fullstack Dev', level: 60, tags: 'Node.js, PocketBase, MYSQL, SQL SERVER', icon: '' },
-        { name: 'Game Design', level: 20, tags: 'State Machines, Logic, GODOT, GDSCRIPT, UNITY', icon: '' }
+        { name: 'Game Design', level: 20, tags: 'State Machines, Logic, GODOT, GDSCRIPT, C#, UNITY', icon: '' }
     ];
 
     static override get styles(): CSSResult {

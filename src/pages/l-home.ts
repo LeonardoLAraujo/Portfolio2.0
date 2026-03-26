@@ -172,8 +172,8 @@ export default class LHome extends LitElement {
                     </div>
 
                     <div class="bio">
-                        Desenvolvedor Web com dupla graduação em Computação e Sistemas. 
-                        Especialista em soluções interativas, atualmente unindo 3 anos de experiência em frontend com pós-graduação em Data Science & Analytics.
+                        Desenvolvedor Web com dupla graduação e foco em interfaces de alto desempenho. 
+                        Unindo 3 anos de expertise em Frontend a uma sólida base Fullstack para criar experiências digitais completas.
                     </div>
 
                     <div class="skills">

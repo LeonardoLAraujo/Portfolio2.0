@@ -149,7 +149,7 @@ export default class LFooter extends LitElement {
                         &copy; ${currentYear} — Leonardo Leal Araújo
                     </div>
                     <div class="tech-info">
-                        Built with <span>Lit Element</span> • <span>TypeScript</span> • <span>NodeJs</span> • <span>Rive</span>
+                        Built with <span>Lit Element</span> • <span>TypeScript</span> • <span>NodeJs</span> • <span>Rive</span> • <span>Vite</span>  
                     </div>
                 </div>
 
