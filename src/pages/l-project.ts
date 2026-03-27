@@ -115,6 +115,7 @@ export default class LProjects extends LitElement {
                 margin: 0 auto;
                 box-sizing: border-box; /* Garante que o padding não aumente a largura total */
                 width: 100%;
+                position: relative;
             }
 
             .section-header {

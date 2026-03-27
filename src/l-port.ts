@@ -93,12 +93,19 @@ export default class LPort extends LitElement {
     }
 
     private initScrollObserver() {
-        const options = { threshold: 0.5 };
+        // Reduzimos o threshold para 0.2 (20% de visibilidade)
+        // A rootMargin negativa "encolhe" a área de detecção para o centro da tela
+        const options = { 
+            threshold: 0.2,
+            rootMargin: "-10% 0px -40% 0px" 
+        };
+
         const observer = new IntersectionObserver((entries) => {
-            // SÓ ENTRA SE NÃO FOR UM SCROLL MANUAL
             if (this._isManualScrolling) return;
 
             entries.forEach(entry => {
+                // No mobile, várias seções podem "cruzar" a tela ao mesmo tempo
+                // isIntersecting garante que estamos pegando a que está entrando na área
                 if (entry.isIntersecting) {
                     this._menuElement?.setActiveBySectionId(entry.target.id);
                 }
@@ -188,7 +195,7 @@ export default class LPort extends LitElement {
                 
                 <main>
                     <l-home id="stats"></l-home>
-                    <l-stats id="stats"></l-stats>
+                    <l-stats></l-stats>
                     <l-skills id="skills"></l-skills>
                     <l-tech-stack id="tech-stack"></l-tech-stack>
                     <l-journey id="journey"></l-journey>

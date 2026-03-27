@@ -9,7 +9,6 @@ export default class LHome extends LitElement {
             :host {
                 display: block;
                 min-height: 100vh;
-                font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
                 padding: 2rem;
             }
 
